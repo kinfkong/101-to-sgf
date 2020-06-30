@@ -1,0 +1,21 @@
+{
+  "name": "101死活转sgf",
+  "description": "101死活转sgf.",
+  "version": "0.1",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [{
+    "matches": ["*://*.101weiqi.com/*"],
+    "js": ["content.js"]
+  }],
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+      "default_title": "101死活转sgf",
+      "default_icon": "101sgf-logo.png"
+  },
+  "manifest_version": 2
+}
