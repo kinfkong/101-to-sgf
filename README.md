@@ -1,6 +1,5 @@
 
-101 problems to convert to SGF
+Convert 101 problems to SGF files
 =======
-
 Adds a button to convert.
 
